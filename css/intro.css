@@ -1,0 +1,84 @@
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/door.svg);
+    filter: brightness(10);
+    margin-bottom: 10px;
+}
+
+
+
+button {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #7ED321;
+    background-color: transparent;
+    border-radius: 15px;
+    width: 150px;
+    display: block;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.intro h3 {
+    color: #7ED321;
+}
+
+
+.line {
+    background-color: white;
+}
+
+
+
+
+.intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+.study,
+.relax,
+.intro {
+    text-align: center;
+}
+
+button {
+    color: white;
+}
+
+
+footer img {
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+footer p{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+

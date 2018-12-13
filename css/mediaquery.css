@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1200px) {
+    
+    *{
+        cursor: pointer;
+    }
+
+    .grid-item {
+        display: none;
+    }
+
+    .periodictable {}
+
+    .grid-container,
+    .grid-container2 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 50px;
+        padding-top: 50px;
+    }
+
+
+    .grid-item-copper,
+    .grid-item-gold,
+    .grid-item-hydrogen,
+    .grid-item-uranium,
+    .grid-item-magneseum,
+    .grid-item {
+        font-size: 36px;
+        padding: 30px 50px 30px 50px;
+        transition: ease 1s, transform 5s ease;
+        overflow: left;
+    }
+
+    .grid-item-none {
+        display: none;
+    }
+
+    
+    .element_info_grid {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+    height: auto;
+}
+    
+    
+.uranium_popup,
+.hydrogen_popup,
+.magneseum_popup,
+.gold_popup,
+.copper_popup {
+display: none;
+}
+
+
+    
+
+}

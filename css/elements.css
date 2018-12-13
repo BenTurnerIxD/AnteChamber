@@ -1,0 +1,149 @@
+.element {
+    width: 500px;
+    max-width: 1200px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.element h3 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.copper,
+.gold,
+.uranium,
+.hydrogen,
+.magnesium {
+    height: 200px;
+    width: 150px;
+    position: relative;
+    margin: 40px auto 40px auto;
+    font-family: 'glacial_indifferencebold', serif;
+}
+
+
+
+.copper {
+    border: 5px solid orange;
+    color: orange;
+    text-shadow: 0px 0px 200px orange;
+}
+
+.gold {
+    border: 5px solid gold;
+    color: gold;
+    text-shadow: 0px 0px 200px gold;
+}
+
+.uranium {
+    border: 5px solid;
+    border-image-slice: 1;
+    color: greenyellow;
+    text-shadow: 0px 0px 200px #85FF00;
+}
+
+.hydrogen {
+    border: 5px solid cyan;
+    color: cyan;
+    text-shadow: 0px 0px 200px cyan;
+}
+
+.magnesium {
+    border: 5px solid silver;
+    color: silver;
+    text-shadow: 0px 0px 200px silver;
+}
+
+.topleft,
+.center,
+.bottomright {
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    color: inherit;
+    font-family: 'glacial_indifferencebold', serif;
+}
+
+.topleft {
+    top: 0;
+    left: 0;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottomright {
+    bottom: 0;
+    right: 0;
+}
+
+svg {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 1px;
+    width: 250px;
+}
+
+.hydrogenline {
+    background-color: cyan;
+}
+
+.uraniumline {
+    background-color: green;
+}
+
+.goldline {
+    background-color: gold;
+}
+
+.copperline {
+    background-color: orange;
+}
+
+.magnesiumline {
+    background-color: silver;
+}
+
+
+.element h3 {
+    text-align: left;
+}
+
+.line,
+.icon,
+svg {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.element_info_grid {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.stat {
+    display: flex;
+}
